@@ -1,43 +1,22 @@
 # scripts
 
-<img src="https://img.shields.io/github/stars/hmol33/scripts?style=flat-square&color=blue" alt="Stars">
-<img src="https://img.shields.io/github/forks/hmol33/scripts?style=flat-square&color=green" alt="Forks">
-<img src="https://img.shields.io/github/license/hmol33/scripts?style=flat-square" alt="License">
+Collection of useful scripts
 
-Script collectie — diverse handige scripts voor dagelijks gebruik.
-
-## Installatie
+## Installation
 
 ```bash
 git clone https://github.com/hmol33/scripts.git
 cd scripts
 ```
 
-Individuele scripts kunnen direct uitgevoerd worden:
+## Usage
 
-```bash
-chmod +x script-name.sh
-./script-name.sh
-```
+See the documentation for more information.
 
-## Gebruik
+## Contributing
 
-```bash
-# Voorbeeld: voer een script uit
-./backup.sh
-./update.sh
-```
+See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
-## Bijdragers
+## License
 
-- [hmol33](https://github.com/hmol33) — Onderhouder
-
-## Licentie
-
-MIT — zie [LICENSE](LICENSE) voor details.
-
-## Gource Video
-
-Repository visualisatie (Gource):
-
-[![Gource visualization](https://user-images.githubusercontent.com/1779426583/146045360-8b4c5b68-3f56-4f1e-93c5-4c45a5a5b5b5.png)](https://user-images.githubusercontent.com/1779426583/146045360-8b4c5b68-3f56-4f1e-93c5-4c45a5a5b5b5.png)
+See [LICENSE](LICENSE) for details.
