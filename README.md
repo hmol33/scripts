@@ -1,8 +1,8 @@
 # scripts
 
-<img src="https://img.shields.io/github/stars/hmol33/scripts?style=flat-square&color=blue" alt="Stars">
-<img src="https://img.shields.io/github/forks/hmol33/scripts?style=flat-square&color=green" alt="Forks">
-<img src="https://img.shields.io/github/license/hmol33/scripts?style=flat-square" alt="License">
+[![CI](https://github.com/hmol33/scripts/actions/workflows/ci.yml/badge.svg)](https://github.com/hmol33/scripts/actions)
+[![Stars](https://img.shields.io/github/stars/hmol33/scripts?style=flat-square&color=blue)](https://github.com/hmol33/scripts/stargazers)
+[![License](https://img.shields.io/github/license/hmol33/scripts?style=flat-square)](LICENSE)
 
 Script collectie — diverse handige scripts voor dagelijks gebruik.
 
@@ -13,19 +13,28 @@ git clone https://github.com/hmol33/scripts.git
 cd scripts
 ```
 
-Individuele scripts kunnen direct uitgevoerd worden:
+## Beschikbare scripts
 
-```bash
-chmod +x script-name.sh
-./script-name.sh
-```
+| Script | Taal | Beschrijving |
+|--------|------|-------------|
+| `scripts/main.sh` | Bash | Main entry point |
+| `bash/hello.sh` | Bash | Voorbeeld bash script met logging |
+| `python/hello.py` | Python | Voorbeeld Python script met logging |
+| `utils/log.sh` | Bash | Utility functies voor logging |
 
 ## Gebruik
 
 ```bash
-# Voorbeeld: voer een script uit
-./backup.sh
-./update.sh
+# Voer een script uit
+chmod +x bash/hello.sh
+./bash/hello.sh
+
+# Python script
+python3 python/hello.py
+
+# Source de log utilities
+source utils/log.sh
+log "Dit is een log bericht"
 ```
 
 ## Bijdragers
