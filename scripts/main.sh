@@ -1,1 +1,4 @@
-#!/bin/bash\n# Main script entry point\nsource ./utils/log.sh\nlog "Starting..."
+#!/bin/bash
+# Main script entry point
+source ./utils/log.sh
+log "Starting..."
