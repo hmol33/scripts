@@ -1,1 +1,3 @@
-#!/bin/bash\n# Utility functions\nlog() { echo "[$(date)] $*"; }
+#!/bin/bash
+# Utility functions
+log() { echo "[$(date)] $*"; }
