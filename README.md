@@ -3,6 +3,7 @@
 <img src="https://img.shields.io/github/stars/hmol33/scripts?style=flat-square&color=blue" alt="Stars">
 <img src="https://img.shields.io/github/forks/hmol33/scripts?style=flat-square&color=green" alt="Forks">
 <img src="https://img.shields.io/github/license/hmol33/scripts?style=flat-square" alt="License">
+<img src="https://github.com/hmol33/scripts/actions/workflows/ci.yml/badge.svg" alt="CI">
 
 Script collectie — diverse handige scripts voor dagelijks gebruik.
 
@@ -26,6 +27,15 @@ chmod +x script-name.sh
 # Voorbeeld: voer een script uit
 ./backup.sh
 ./update.sh
+```
+
+## Structuur
+
+```
+├── bash/           # Bash scripts
+├── python/         # Python scripts
+├── scripts/        # Algemene scripts
+└── utils/          # Utility scripts
 ```
 
 ## Bijdragers

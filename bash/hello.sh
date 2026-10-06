@@ -1,1 +1,2 @@
-#!/bin/bash\necho "Hello from bash script"
+#!/bin/bash
+echo "Hello from bash script"
